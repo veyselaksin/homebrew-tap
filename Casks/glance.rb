@@ -1,18 +1,11 @@
 cask "glance" do
-  version "1.0.3"
-  sha256 "aa639203031d891436e1336dde50effecd4aecf6b823908da233c798ab9337af"
+  version "1.0.4"
+  sha256 "3df9daa7bceab1da67df8afb6076160ab3c9fcf0e2e2a1b8bfc483d3bd56a26c"
 
-  url "https://github.com/veyselaksin/glance/releases/download/v#{version}/Glance-macOS.zip"
+  url "https://github.com/veyselaksin/glance/releases/download/v#{version}/Glance-macOS.dmg"
   name "Glance"
   desc "Developer dashboard for monitoring GitHub stats, Docker and VPS"
   homepage "https://github.com/veyselaksin/glance"
 
   app "Glance.app"
-
-  caveats <<~EOS
-    Glance is ad-hoc signed because it does not use a paid Apple Developer account.
-    If macOS Gatekeeper blocks it from opening on the first launch, please run the following command in your terminal:
-
-      xattr -cr /Applications/Glance.app
-  EOS
 end
