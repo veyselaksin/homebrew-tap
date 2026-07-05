@@ -15,3 +15,4 @@ cask "glance" do
 
       xattr -cr /Applications/Glance.app
   EOS
+end
