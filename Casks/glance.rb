@@ -1,8 +1,8 @@
 cask "glance" do
-  version "1.0.2"
-  sha256 "31ac344ce2bc4fdefe4bdbd2632521761c7fe71c0c303c287de632ea8dd48c05"
+  version "1.0.1"
+  sha256 "658aa72d5e59bef68d7bcf3ee3331cba1f326aa812ea84d1467844c1a55e9619"
 
-  url "https://github.com/veyselaksin/glance/releases/download/v${version}/Glance-macOS.zip"
+  url "https://github.com/veyselaksin/glance/releases/download/v1.0.1/Glance-macOS.zip"
   name "Glance"
   desc "Developer dashboard for monitoring GitHub stats, Docker and VPS"
   homepage "https://github.com/veyselaksin/glance"
