@@ -1,6 +1,6 @@
 cask "glance" do
-  version "1.0.0"
-  sha256 "bbb01f22685c03c8056c762a51d655f1d24200f471dc7acc37e6c8b95449d732"
+  version "1.1.0"
+  sha256 "f3ba05b548034f24dc4c16b1226caec5e11778aea988cc3971db587c6bdbf7f0"
 
   url "https://github.com/veyselaksin/glance/releases/download/v#{version}/Glance-macOS.zip"
   name "Glance"
